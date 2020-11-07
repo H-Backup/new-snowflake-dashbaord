@@ -2,15 +2,16 @@
 
 .slider {
   background-color: rgb(11, 50, 87)!important;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  // margin-bottom: 12px;
 }
 
 .slider__test-slide {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  min-height: 150px;
+  min-height: 100px;
   width: 320px;
   height: 230px;
   padding-top: 10px;
@@ -22,7 +23,7 @@
   text-align: center;
   box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
   cursor: pointer;
-  margin-right: 22px;
+  margin-right: 20px;
 }
 
 .slick-next {
@@ -32,7 +33,7 @@
   right: 0;
   margin-top: -20px;
   font-size: 30px;
-  margin-right: 60px;
+  margin-right: 40px;
   color: transparent;
   z-index: 9;
 }
